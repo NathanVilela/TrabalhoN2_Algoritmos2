@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\Documents\\EC2\\Algoritmos 2\\Trabalhos\\Desafio_da_sequencia_N1\\Desafio_da_sequencia_N1\\Desafio_da_sequencia_N1.csproj",
-      "projectName": "Desafio_da_sequencia_N1",
-      "projectPath": "C:\\Users\\HP\\Documents\\EC2\\Algoritmos 2\\Trabalhos\\Desafio_da_sequencia_N1\\Desafio_da_sequencia_N1\\Desafio_da_sequencia_N1.csproj",
+      "projectUniqueName": "C:\\Users\\HP\\Documents\\EC2\\Algoritmos 2\\Trabalhos\\Desafio_dos_numeros\\Desafio_dos_numeros\\Desafio_dos_numeros.csproj",
+      "projectName": "Desafio_dos_numeros",
+      "projectPath": "C:\\Users\\HP\\Documents\\EC2\\Algoritmos 2\\Trabalhos\\Desafio_dos_numeros\\Desafio_dos_numeros\\Desafio_dos_numeros.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\Documents\\EC2\\Algoritmos 2\\Trabalhos\\Desafio_da_sequencia_N1\\Desafio_da_sequencia_N1\\obj\\",
+      "outputPath": "C:\\Users\\HP\\Documents\\EC2\\Algoritmos 2\\Trabalhos\\Desafio_dos_numeros\\Desafio_dos_numeros\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",

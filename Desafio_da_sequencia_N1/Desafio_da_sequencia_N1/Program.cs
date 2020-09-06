@@ -53,27 +53,28 @@ namespace Ex_23
             Console.WriteLine(primeiroNumero);
             for (int i = 1; i < repeticoes; i++)
             {
-                int[] qntNum = new int[10]; // Vai de 0 a 9
+                int qntNum = 0; // Vai de 0 a 9
                 for (int j = 0; j < numeroStr.Length; j++)
                 {
-                    qntNum[Convert.ToInt32(numeroStr.Substring(j, 1))] += 1;
+                    qntNum += 1;
 
                     // Caso o número seguinte não existir ou forem diferentes
                     if (j == numeroStr.Length - 1)
                     {
-                        auxStr += qntNum[Convert.ToInt16(numeroStr.Substring(j, 1))] + "" + numeroStr[j];
-                        qntNum = new int[10];
+                        auxStr += qntNum + "" + numeroStr[j];
+                        qntNum = 0;
                     }
                     else if (numeroStr[j] != numeroStr[j + 1])
                     {
-                        auxStr += qntNum[Convert.ToInt16(numeroStr.Substring(j, 1))] + "" + numeroStr[j];
-                        qntNum = new int[10];
+                        auxStr += qntNum + "" + numeroStr[j];
+                        qntNum = 0;
                     }
                 }
                 numeroStr = auxStr;
                 auxStr = "";
-                Console.WriteLine(numeroStr);
-
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine(numeroStr + "\n");
+                Console.ResetColor();
             }
         }
     }

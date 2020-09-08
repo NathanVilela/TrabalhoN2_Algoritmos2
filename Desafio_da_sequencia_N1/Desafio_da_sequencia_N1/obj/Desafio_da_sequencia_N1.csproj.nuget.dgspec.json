@@ -1,21 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP\\Documents\\EC2\\Algoritmos 2\\Trabalhos\\Desafio_da_sequencia_N1\\Desafio_da_sequencia_N1\\Desafio_da_sequencia_N1.csproj": {}
+    "C:\\Users\\natha\\Desktop\\TrabalhoN2_Algoritmos2-master\\Desafio_da_sequencia_N1\\Desafio_da_sequencia_N1\\Desafio_da_sequencia_N1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP\\Documents\\EC2\\Algoritmos 2\\Trabalhos\\Desafio_da_sequencia_N1\\Desafio_da_sequencia_N1\\Desafio_da_sequencia_N1.csproj": {
+    "C:\\Users\\natha\\Desktop\\TrabalhoN2_Algoritmos2-master\\Desafio_da_sequencia_N1\\Desafio_da_sequencia_N1\\Desafio_da_sequencia_N1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\Documents\\EC2\\Algoritmos 2\\Trabalhos\\Desafio_da_sequencia_N1\\Desafio_da_sequencia_N1\\Desafio_da_sequencia_N1.csproj",
+        "projectUniqueName": "C:\\Users\\natha\\Desktop\\TrabalhoN2_Algoritmos2-master\\Desafio_da_sequencia_N1\\Desafio_da_sequencia_N1\\Desafio_da_sequencia_N1.csproj",
         "projectName": "Desafio_da_sequencia_N1",
-        "projectPath": "C:\\Users\\HP\\Documents\\EC2\\Algoritmos 2\\Trabalhos\\Desafio_da_sequencia_N1\\Desafio_da_sequencia_N1\\Desafio_da_sequencia_N1.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\Documents\\EC2\\Algoritmos 2\\Trabalhos\\Desafio_da_sequencia_N1\\Desafio_da_sequencia_N1\\obj\\",
+        "projectPath": "C:\\Users\\natha\\Desktop\\TrabalhoN2_Algoritmos2-master\\Desafio_da_sequencia_N1\\Desafio_da_sequencia_N1\\Desafio_da_sequencia_N1.csproj",
+        "packagesPath": "C:\\Users\\natha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\natha\\Desktop\\TrabalhoN2_Algoritmos2-master\\Desafio_da_sequencia_N1\\Desafio_da_sequencia_N1\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\natha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -52,7 +57,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

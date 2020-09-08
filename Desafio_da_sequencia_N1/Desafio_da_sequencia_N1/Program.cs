@@ -6,6 +6,8 @@ namespace Ex_23
     {
         static void Main(string[] args)
         {
+            // Interface inicial
+            Letreiro();
             // Entrada de dados
             int primeiroNumero = CapturaInteiro("Digite o primeiro número: ");
             int repeticoes = CapturaInteiro("Digite o número de repetições: ");
@@ -21,9 +23,11 @@ namespace Ex_23
         /// <returns>Um número inteiro especificado pelo usuário</returns>
         static int CapturaInteiro(string texto)
         {
+            //Declara variavel num = 0 para não permanecer vazia
             int num = 0;
             do
             {
+                //Caso usuário digite algo não permitido, ele entra neste controle de exceção
                 try
                 {
                     Console.Write(texto);
@@ -38,6 +42,35 @@ namespace Ex_23
             } while (true);
 
             return num;
+        }
+        /// <summary>
+        /// Este método imprime a interface inicial do console
+        /// </summary>
+        static void Letreiro()
+        {
+            Console.WriteLine("Nome: Guilherme Dias Lima Turtera RA: 081200007");
+            Console.WriteLine("Nome: Nathan Vilela de Souza      RA: 081200028");
+            Console.ForegroundColor = ConsoleColor.DarkBlue;
+            Console.WriteLine("      |||||   |||||  |||||    ||||    |||||  ||    ||||");
+            Console.WriteLine("      |   ||  |      ||      |    |   |           ||  ||");
+            Console.WriteLine("      |   ||  |||      ||    ||||||   |||    ||   ||  ||");
+            Console.WriteLine("      |   ||  |         ||   |    |   |      ||   ||  ||");
+            Console.WriteLine("      |||||   |||||  |||||   |    |   |      ||    ||||");
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine("");
+            Console.WriteLine("                      |||||   ||||  ");
+            Console.WriteLine("                      |   || |    | ");
+            Console.WriteLine("                      |   || |||||| ");
+            Console.WriteLine("                      |   || |    | ");
+            Console.WriteLine("                      |||||  |    | ");
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("");
+            Console.WriteLine("|||||  |||||   ||||   ||   ||  |||||  ||    || |||||  ||  |||| ");
+            Console.WriteLine("||     |      ||  ||  ||   ||  |      |||   || |         |    |");
+            Console.WriteLine("  ||   |||    ||  ||  ||   ||  |||    || |  || |      || ||||||");
+            Console.WriteLine("   ||  |      || |||  ||   ||  |      ||  | || |      || |    |");
+            Console.WriteLine("|||||  |||||    || ||   |||    |||||  ||   ||| |||||  || |    | \n \n");
+            Console.ResetColor();
         }
 
         /// <summary>

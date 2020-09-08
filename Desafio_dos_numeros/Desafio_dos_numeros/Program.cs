@@ -6,7 +6,7 @@ namespace Desafio_dos_numeros
     {
         static void Main(string[] args)
         {
-
+            Letreiro();
             // Declaração de variáveis e captura das mesmas
             int quantidadeAlunos = CapturaInteiro("Quantos alunos a sala possui? ");
 
@@ -55,7 +55,36 @@ namespace Desafio_dos_numeros
             Console.ReadKey();
             
         }
+        /// <summary>
+        /// Este método imprime a interface inicial do console
+        /// </summary>
+        static void Letreiro()
+        {
+            Console.WriteLine("Nome: Guilherme Dias Lima Turtera RA: 081200007");
+            Console.WriteLine("Nome: Nathan Vilela de Souza      RA: 081200028");
+            Console.ForegroundColor = ConsoleColor.DarkBlue;
+            Console.WriteLine("      |||||   |||||  |||||    ||||    |||||  ||    ||||");
+            Console.WriteLine("      |   ||  |      ||      |    |   |           ||  ||");
+            Console.WriteLine("      |   ||  |||      ||    ||||||   |||    ||   ||  ||");
+            Console.WriteLine("      |   ||  |         ||   |    |   |      ||   ||  ||");
+            Console.WriteLine("      |||||   |||||  |||||   |    |   |      ||    ||||");
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine("");
+            Console.WriteLine("                      |||||   ||||  |||||");
+            Console.WriteLine("                      |   || ||  || ||   ");
+            Console.WriteLine("                      |   || ||  ||   || ");
+            Console.WriteLine("                      |   || ||  ||    ||");
+            Console.WriteLine("                      |||||   ||||  |||||");
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("");
+            Console.WriteLine("     ||    ||  ||   || ||    || |||||  ||||    ||||  |||||");
+            Console.WriteLine("     |||   ||  ||   || |||  ||| |      |   |  ||  || ||   ");
+            Console.WriteLine("     || |  ||  ||   || || || || |||    ||||   ||  ||   || ");
+            Console.WriteLine("     ||  | ||  ||   || ||    || |      |  |   ||  ||    ||");
+            Console.WriteLine("     ||   |||    |||   ||    || |||||  |   |   ||||  ||||| \n \n");
+            Console.ResetColor();
 
+        }
         /// <summary>
         /// Este método manda uma mensagem pedindo um inteiro, e o retorna, caso for maior do que 0
         /// </summary>
